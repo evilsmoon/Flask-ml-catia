@@ -17,7 +17,7 @@ function predicttext() {
             <div class='container'>
             <table class="table">
             <thead>
-              <th></th>
+              <th>#</th>
               <td>ENFOQUE PSICOSOCIAL - COMUNITARIO</td>
               <td>MODELO BIO MEDICO</td>
               <td>ENFOQUE COTIDIANO"</td>
