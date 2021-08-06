@@ -1,8 +1,9 @@
 import re
 def readTxt(text):
-  f = open (text,'r',encoding='UTF-8')
   data = []
+  f = open (text,'r',encoding='UTF-8')
   for i in f.readlines():
-    data.append(re.sub('[^A-Za-záéíóúñ]+',' ',i.strip('\n')))
+    # print(i.strip('\n'))
+    data.append(i.strip('\n'))
   f.close()
   return data

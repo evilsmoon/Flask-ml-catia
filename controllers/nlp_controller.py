@@ -41,14 +41,7 @@ def stemmer(tit):
     for x,h in enumerate(i):
       i[x]=st.stem(h)
   return tit
-######
-def stemmerBolsaPalabras(list_text):
 
-  st = SnowballStemmer('spanish')
-  data = []
-  for i in list_text:
-    data.append(st.stem(i))
-  return data
 
 
 
