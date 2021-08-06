@@ -38,8 +38,7 @@ motriz
 actividad
 vidadiaria
 conducta
-psicológica
-global
+psicológicanos
 persistente
 resolver
 problemas

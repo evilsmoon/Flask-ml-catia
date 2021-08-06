@@ -13,22 +13,23 @@ function predicttext() {
           if (resp) {
             $("#similitudJC").attr("hidden", false).html(`
                 <div class='container'>
+                <h3 class="margin text-danger">Cálculo de Similitudes y Tipo de Enfoque</h3>
                 <table class="table">
                 <thead>
                   <th></th>
                   <td>ENFOQUE PSICOSOCIAL - COMUNITARIO</td>
                   <td>MODELO BIO MEDICO</td>
-                  <td>ENFOQUE COTIDIANO"</td>
+                  <td>ENFOQUE COTIDIANO</td>
                 </thead>
                 <tbody>
                   <tr>
-                    <th scope="row">Jaccard</th>
+                    <th scope="row">Similitud Jaccard</th>
                     <td>${resp.jacc_epc.toFixed(4)}</td>
                     <td>${resp.jacc_mbm.toFixed(4)}</td>
                     <td>${resp.jacc_ec.toFixed(4)}</td>
                   </tr>
                   <tr>
-                    <th scope="row">Coseno</th>
+                    <th scope="row">Similitud Coseno</th>
                     <td>${resp.cos_epc.toFixed(4)}</td>
                     <td>${resp.cos_mbm.toFixed(4)}</td>
                     <td>${resp.cos_ec.toFixed(4)}</td>
