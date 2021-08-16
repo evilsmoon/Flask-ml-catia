@@ -36,15 +36,18 @@ function predicttext() {
                   </tr>
                 </tbody>
               </table>
-                </div>
             `);
+            // $("#predictJC").attr("hidden", true).html(`
+            //   <div class="bg-warning container">
+            //     <p class="text-primary">${}</p>
+            //   </div>
+            // `)
+
           }
-          setTimeout(() => {
-          }, 500);
+
         },
         error: function (err) {
-          setTimeout(() => {
-          }, 500);
+
           console.log(err);
         },
       });

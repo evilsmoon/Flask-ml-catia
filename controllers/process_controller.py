@@ -32,7 +32,7 @@ def predict_text(text):
     #obtener bolsa de palabras
     dic_epc = rtc.readTxt("models/data/dic_epc.txt")
     dic_mbm = rtc.readTxt("models/data/dic_mbm.txt")
-    dic_ecc  = rtc.readTxt("models/data/dic_ecc.txt")
+    dic_ecc = rtc.readTxt("models/data/dic_ecc.txt")
     print(dic_epc)
     print(dic_mbm)
     print(dic_ecc)
